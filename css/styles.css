@@ -14,60 +14,112 @@
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --footer-text-cololr: #e7e9fc;
-  --focus-text-collor:  #4D5AE5;
+  --logo-text-color: #4d5ae5;
+  --primary-bg-color: #ffffff;
 }
 body {
-  background-color: #ffffff;
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
 }
+
 .list {
   list-style: none;
 }
 /* logo */
 .logo {
   color: var(--title-text-color);
+  font-family: Raleway, serif;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 /* header */
 .logo-web {
-  color: var(--focus-text-collor)
+  color: var(--logo-text-color);
+  text-decoration: none;
 }
 /* nav */
 .site-nav a {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
 }
 /* address */
 .address-nav a {
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
 }
 /* Заголовок-герой */
 .title-hero {
-  color: #ffffff;
+  color: var(--primary-bg-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
 }
 /* заголовок */
-.section .title {
+.section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
 }
 /* переваги */
 .advantages-list .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
+.advantages-list .text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 /* роботи */
 
 /* команда */
 .team-list .title {
   color: var(--title-text-color);
 }
-/* підвал */
 
-/* ======================портфоліо================= */
-.section-portfolio .title {
+/* ======================портфоліо навігація================= */
+.section-buttons .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+.button {
+  color: var(--primary-bg-color);
+  background-color: var(--logo-text-color);
+}
+.button-primary {
 }
 /* секція порфоліо */
-.title-work {
-  color: var(--title-text-color);
-}
 
 .list-work .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.list-work .text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* підвал */
+.footer .text {
+  font-size: 16px;
+  line-height: 1.5;
 }
