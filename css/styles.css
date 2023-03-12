@@ -1,3 +1,73 @@
-.body {
-  background-color: aqua;
+/* Голвний колір
+/* SLATE */
+/* color: #434455; */
+
+/* заголовки */
+/* color: #2E2F42; */
+/* hero */
+/* #FFFFFF */
+/* footer */
+/* color: #E7E9FC; */
+/* #4D5AE5; */
+
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --footer-text-cololr: #e7e9fc;
+  --focus-text-collor:  #4D5AE5;
+}
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+/* logo */
+.logo {
+  color: var(--title-text-color);
+}
+/* header */
+.logo-web {
+  color: var(--focus-text-collor)
+}
+/* nav */
+.site-nav a {
+  color: var(--title-text-color);
+}
+/* address */
+.address-nav a {
+  color: var(--primary-text-color);
+}
+/* Заголовок-герой */
+.title-hero {
+  color: #ffffff;
+}
+/* заголовок */
+.section .title {
+  color: var(--title-text-color);
+}
+/* переваги */
+.advantages-list .title {
+  color: var(--title-text-color);
+}
+/* роботи */
+
+/* команда */
+.team-list .title {
+  color: var(--title-text-color);
+}
+/* підвал */
+
+/* ======================портфоліо================= */
+.section-portfolio .title {
+  color: var(--title-text-color);
+}
+/* секція порфоліо */
+.title-work {
+  color: var(--title-text-color);
+}
+
+.list-work .title {
+  color: var(--title-text-color);
 }
