@@ -73,10 +73,11 @@ body {
 .address-item {
 }
 .address-link {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 .address-link:hover,
 .address-link:focus {
@@ -95,11 +96,18 @@ body {
 }
 .hero-button {
   color: var(--primary-bg-color);
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: #404bbf;
 }
 /* =====================advantages========== */
 .advantages {
@@ -124,6 +132,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 .examples-list {
 }
@@ -139,10 +148,12 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 .team-list {
+  background-color: #ffffff;
 }
-.list {
+.team-item {
 }
 .team-list-title {
 }
