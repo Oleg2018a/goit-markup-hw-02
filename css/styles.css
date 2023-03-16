@@ -190,9 +190,10 @@ body {
 }
 
 .work-link{
-  
+ 
 }
 .work-text {
+  color: var(--primary-text-color);
 }
 
 /* ===========footer=============== */
