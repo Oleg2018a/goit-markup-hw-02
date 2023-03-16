@@ -171,7 +171,7 @@ body {
 .portfolio-item {
 }
 .portfolio-button {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -189,7 +189,9 @@ body {
 .work-list {
 }
 
-
+.work-link{
+  
+}
 .work-text {
 }
 
