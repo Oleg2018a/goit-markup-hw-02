@@ -4,6 +4,7 @@
   --footer-text-cololr: #e7e9fc;
   --focus-text-color: #4d5ae5;
   --primary-bg-color: #ffffff;
+  --button-bg-cololr: #f4f4fd;
 }
 body {
   background-color: var(--primary-bg-color);
@@ -67,6 +68,7 @@ body {
   color: #404bbf;
 }
 .address {
+  font-style: normal;
 }
 .address-list {
 }
@@ -77,7 +79,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 .address-link:hover,
 .address-link:focus {
@@ -107,7 +108,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 /* =====================advantages========== */
 .advantages {
@@ -151,15 +152,48 @@ body {
   text-transform: capitalize;
 }
 .team-list {
-  background-color: #ffffff;
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-list-title {
 }
 .team-text {
 }
-/* ==================footer=============== */
+/* ======================portfolio=============== */
+.portfolio {
+}
+.portfolio-primary-title {
+}
+
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: var(--button-bg-cololr);
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.work-list {
+}
+
+
+.work-text {
+}
+
+/* ===========footer=============== */
 .footer {
   background-color: #2e2f42;
 }
