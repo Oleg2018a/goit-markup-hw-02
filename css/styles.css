@@ -5,6 +5,7 @@
   --focus-text-color: #4d5ae5;
   --primary-bg-color: #ffffff;
   --button-bg-cololr: #f4f4fd;
+  --hover-focus-color: #404bbf
 }
 body {
   background-color: var(--primary-bg-color);
@@ -65,7 +66,7 @@ body {
 }
 .header-link:hover,
 .header-link:focus {
-  color: #404bbf;
+  color: var(--hover-focus-color);
 }
 .address {
   font-style: normal;
@@ -82,11 +83,11 @@ body {
 }
 .address-link:hover,
 .address-link:focus {
-  color: #404bbf;
+  color:var(--hover-focus-color);
 }
 /* ===========herro============= */
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--title-text-color);
 }
 .hero-title {
   color: var(--primary-bg-color);
@@ -103,12 +104,12 @@ body {
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
-  background-color: #4d5ae5;
+  background-color: var(--focus-text-color);
   cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf;
+  background-color: var(--hover-focus-color);
 }
 /* =====================advantages========== */
 .advantages {
@@ -141,7 +142,7 @@ body {
 }
 /* ====================team===================== */
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--button-bg-cololr);
 }
 .team-title {
   color: var(--title-text-color);
@@ -154,7 +155,7 @@ body {
 .team-list {
 }
 .team-item {
-  background-color: #ffffff;
+  background-color: var(--primary-bg-color);
 }
 .team-list-title {
 }
@@ -172,19 +173,18 @@ body {
 }
 .portfolio-button {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--focus-text-color);
   background-color: var(--button-bg-cololr);
   cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--primary-bg-color);
+  background-color: var(--hover-focus-color);
 }
 .work-list {
 }
@@ -194,10 +194,10 @@ body {
 
 /* ===========footer=============== */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--title-text-color);
 }
 .logo-footer {
-  color: #f4f4fd;
+  color: var(--button-bg-cololr);
 }
 .footer-text {
   color: var(--footer-text-cololr);
