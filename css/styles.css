@@ -5,7 +5,7 @@
   --focus-text-color: #4d5ae5;
   --primary-bg-color: #ffffff;
   --button-bg-cololr: #f4f4fd;
-  --hover-focus-color: #404bbf
+  --hover-focus-color: #404bbf;
 }
 body {
   background-color: var(--primary-bg-color);
@@ -71,6 +71,7 @@ body {
 .address {
   font-style: normal;
 }
+
 .address-list {
 }
 .address-item {
@@ -83,7 +84,7 @@ body {
 }
 .address-link:hover,
 .address-link:focus {
-  color:var(--hover-focus-color);
+  color: var(--hover-focus-color);
 }
 /* ===========herro============= */
 .hero {
